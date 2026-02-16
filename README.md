@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏷️ Insurance Taxonomy Classifier  
+#  Insurance Taxonomy Classifier  
 ### High-Precision NLP-Based Company-to-Insurance Label Mapping
 
 Lightweight. Interpretable. Scalable. Production-ready.
@@ -9,25 +9,25 @@ Lightweight. Interpretable. Scalable. Production-ready.
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Insurance Taxonomy Classifier** is a high-performance NLP-based system designed to map companies to structured insurance taxonomy labels using hybrid TF-IDF vectorization and cosine similarity.
 
 It is specifically built for:
 
-- 🏢 Large company datasets  
-- 🧾 Noisy or inconsistent textual descriptions  
-- 🏷️ Closely related taxonomy labels  
-- ⚡ Fast and memory-efficient processing (sparse matrices)  
-- 🔍 Fully explainable classification logic  
+- Large company datasets  
+- Noisy or inconsistent textual descriptions  
+- Closely related taxonomy labels  
+- Fast and memory-efficient processing (sparse matrices)  
+- Fully explainable classification logic  
 
 No deep learning. No black boxes. Fully auditable.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
-### 1️⃣ Text Aggregation  
+### 1️. Text Aggregation  
 Each company is represented using:
 
 - `description`
@@ -40,7 +40,7 @@ All fields are cleaned, normalized, and merged into a single structured text rep
 
 ---
 
-### 2️⃣ Hybrid Vectorization
+### 2️. Hybrid Vectorization
 
 The model combines two complementary TF-IDF representations:
 
@@ -57,7 +57,7 @@ The vectors are:
 
 ---
 
-### 3️⃣ Smart Label Centroids (Seed-Based)
+### 3️. Smart Label Centroids (Seed-Based)
 
 Instead of relying only on raw label text:
 
@@ -69,7 +69,7 @@ This significantly improves classification quality.
 
 ---
 
-### 4️⃣ Multi-Label Logic
+### 4️. Multi-Label Logic
 
 Additional labels are assigned when:
 
@@ -80,7 +80,7 @@ This enables intelligent multi-label classification.
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 pip install numpy pandas scipy scikit-learn
